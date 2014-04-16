@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:background="@color/translucent_dk_grey"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_tag_label"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="?attr/actionBarItemBackground"
+        android:gravity="center_vertical"
+        android:padding="@dimen/spacing"
+        android:text="@string/tag_no_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/photo_tag_textSize"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btn_remove_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="?attr/actionBarItemBackground"
+        android:padding="@dimen/spacing"
+        android:src="@drawable/ic_menu_delete" />
+
+</LinearLayout>

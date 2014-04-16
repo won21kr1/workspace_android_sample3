@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="notification_uploaded_photo">
+        <item quantity="one">%d foto subida</item>
+        <item quantity="other">%d fotos fueron subidas</item>
+    </plurals>
+
+    <plurals name="tag_summary_photo">
+        <item quantity="one">Con una persona</item>
+        <item quantity="other">Con %d personas</item>
+    </plurals>
+    
+</resources>

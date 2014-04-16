@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="notification_uploaded_photo">
+        <item quantity="one">Uploadana %d fotografija</item>
+        <item quantity="other">Uploadano %d fotografija</item>
+    </plurals>
+
+    <plurals name="tag_summary_photo">
+        <item quantity="one">S jednom osobom</item>
+        <item quantity="other">S %d osoba</item>
+    </plurals>
+    
+</resources>

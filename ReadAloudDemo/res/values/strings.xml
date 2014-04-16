@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Read Aloud</string>
+    <string name="reading">Reading...</string>
+    <string name="action_settings">Settings</string>
+    <string name="tts_init_error">Couldn\'t start the speech service.</string>
+    <string name="fallback_text">Hello.</string>
+    <string name="title_activity_launch">Read Aloud</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="speak_button">Speak</string>
+    <string name="loading">Loading...</string>
+    <string name="action_tts_settings">Text-to-speech Settings</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Use any app's Share action to send text to Read Aloud and have it read out loud. Or type some text into the box below."
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="36sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@android:drawable/ic_menu_share"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:inputType="textLongMessage|textCapSentences|textAutoCorrect"
+        android:hint="Text to speak..."
+        android:imeActionLabel="Speak"
+        android:imeOptions="actionSend"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_toStartOf="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_alignWithParentIfMissing="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speak text"
+        android:id="@+id/button"
+        android:onClick="pressSpeakButton"
+        android:enabled="false"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+         />
+</RelativeLayout>

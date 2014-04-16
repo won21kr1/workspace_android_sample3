@@ -1,0 +1,6 @@
+BEGIN { FS=" "; }
+{
+  tmps = sprintf ("rm -rf %s/bin/* ", $1); print tmps;
+  tmps = sprintf ("rm -rf %s/.git ", $1); print tmps;
+}
+
